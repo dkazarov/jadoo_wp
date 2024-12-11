@@ -392,8 +392,8 @@ html {
 
 body {
   height: 100%;
-  font-family: "Inter", "Open Sans";
-  font-weight: 400;
+  font-family: "Poppins", "Open Sans";
+  font-weight: 500;
   font-size: 16px;
 }
 
@@ -415,11 +415,55 @@ body {
 }
 
 @font-face {
-  font-family: "Inter";
-  font-weight: 400;
+  font-family: "Google Sans";
+  src: url("../fonts/OpenSans-Regular.woff2") format("woff2"), url("../fonts/OpenSans-Regular.woff") format("woff");
   font-style: normal;
+  font-weight: 400;
   font-display: swap;
 }
+@font-face {
+  font-family: "Google Sans";
+  src: url("../fonts/GoogleSans-Medium.woff2") format("woff2"), url("../fonts/GoogleSans-Medium.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.volkhov-bold {
+  font-family: "Volkhov", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
 .header {
   position: fixed;
   width: 100%;
@@ -511,11 +555,55 @@ body {
   }
 }
 @font-face {
-  font-family: "Inter";
-  font-weight: 400;
+  font-family: "Google Sans";
+  src: url("../fonts/OpenSans-Regular.woff2") format("woff2"), url("../fonts/OpenSans-Regular.woff") format("woff");
   font-style: normal;
+  font-weight: 400;
   font-display: swap;
 }
+@font-face {
+  font-family: "Google Sans";
+  src: url("../fonts/GoogleSans-Medium.woff2") format("woff2"), url("../fonts/GoogleSans-Medium.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.volkhov-bold {
+  font-family: "Volkhov", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
 .footer__inner {
   height: 100px;
   width: 100%;
@@ -529,8 +617,8 @@ html {
 
 body {
   height: 100%;
-  font-family: "Inter", "Open Sans";
-  font-weight: 400;
+  font-family: "Poppins", "Open Sans";
+  font-weight: 500;
   font-size: 16px;
 }
 

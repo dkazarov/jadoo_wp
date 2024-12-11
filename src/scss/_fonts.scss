@@ -1,9 +1,52 @@
 @font-face {
-	font-family: 'Inter';
-	// src: ('../../dist/fonts/ubuntu.woff2');
-	// src: ('../../dist/fonts/ubuntu.woff');
-	// src: ('../../dist/fonts/ubuntu.ttf');
+	font-family: 'Google Sans';
+	src: url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+		url('../fonts/OpenSans-Regular.woff') format('woff');
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Google Sans';
+	src: url('../fonts/GoogleSans-Medium.woff2') format('woff2'),
+		url('../fonts/GoogleSans-Medium.woff') format('woff');
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+}
+
+.poppins-regular {
+	font-family: 'Poppins', serif;
 	font-weight: 400;
 	font-style: normal;
-	font-display: swap;
+}
+
+.poppins-medium {
+	font-family: 'Poppins', serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.poppins-semibold {
+	font-family: 'Poppins', serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.poppins-bold {
+	font-family: 'Poppins', serif;
+	font-weight: 700;
+	font-style: normal;
+}
+.poppins-bold {
+	font-family: 'Poppins', serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.volkhov-bold {
+	font-family: 'Volkhov', serif;
+	font-weight: 700;
+	font-style: normal;
 }
