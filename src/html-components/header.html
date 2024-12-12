@@ -2,6 +2,7 @@
   <div class="container">
     <div class="header__inner">
       <img class="logo" src="./assets/logo.svg" alt="logo">
+
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item">
@@ -16,23 +17,16 @@
           <li class="nav__item">
             <a class="nav__link" href="#">Bookings</a>
           </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#">Login</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link sign-up-btn" href="#">Sign up</a>
-          </li>
-          <li class="nav__item en-page">
-            <a class="nav__link" href="#">en</a>
-            <img class="lang__arrow" src="./assets/lang-arrow.svg" alt="arrow">
-          </li>
-          <li class="nav__item ua-page">
-            <a class="nav__link" href="#">ua</a>
-          </li>
-          <li class="nav__item">
-          </li>
         </ul>
       </nav>
+
+      <div class="action">
+        <a class="login" href="#">Login</a>
+        <div class="sign-up-btn">Sign up</div>
+        <a class="en-page" href="#">en</a>
+        <a class="ua-page" href="#">ua</a>
+        <img class="lang-arrow" src="./assets/lang-arrow.svg" alt="">
+      </div>
 
       @include('../html-components/burger.html')
     </div>

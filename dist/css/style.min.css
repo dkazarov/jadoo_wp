@@ -404,7 +404,7 @@ body {
 }
 
 .container {
-  max-width: 1130px;
+  max-width: 1190px;
   padding: 0 15px;
   margin: 0 auto;
   flex-grow: 1;
@@ -467,6 +467,8 @@ body {
 .header {
   position: fixed;
   width: 100%;
+  z-index: 1;
+  background-color: #fff;
 }
 
 .header__inner {
@@ -474,53 +476,48 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 47px 0;
-  font-family: "Google Sans";
-  width: 500;
+  font-family: "Google Sans", sans-serif;
+  font-weight: 500;
+  padding-top: 48px;
 }
 
-.nav {
-  font-size: 17px;
+.logo {
+  margin-right: 68px;
 }
 
 .nav__list {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   gap: 55px;
-}
-
-.nav__item:nth-child(4) {
-  margin-right: 86px;
 }
 
 .nav__link {
   color: #212832;
 }
 
+.action {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.login {
+  margin-right: 78px;
+  color: #212832;
+}
+
 .sign-up-btn {
-  border: 1px solid #212832;
-  padding: 9px 22px;
-  border-radius: 5px;
+  margin-right: 67px;
 }
 
 .en-page {
   text-transform: uppercase;
+  margin-right: 5px;
+  color: #212832;
 }
 
 .ua-page {
   display: none;
   text-transform: uppercase;
-}
-
-.lang__arrow {
-  cursor: pointer;
-  margin-left: 7px;
-}
-
-.nav__item.en-page {
-  display: flex;
-  align-items: center;
 }
 
 .front-bg {
@@ -680,7 +677,7 @@ body {
 }
 
 .container {
-  max-width: 1130px;
+  max-width: 1190px;
   padding: 0 15px;
   margin: 0 auto;
   flex-grow: 1;
@@ -693,6 +690,8 @@ body {
 .header {
   position: fixed;
   width: 100%;
+  z-index: 1;
+  background-color: #fff;
 }
 
 .header__inner {
@@ -700,53 +699,48 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 47px 0;
-  font-family: "Google Sans";
-  width: 500;
+  font-family: "Google Sans", sans-serif;
+  font-weight: 500;
+  padding-top: 48px;
 }
 
-.nav {
-  font-size: 17px;
+.logo {
+  margin-right: 68px;
 }
 
 .nav__list {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   gap: 55px;
-}
-
-.nav__item:nth-child(4) {
-  margin-right: 86px;
 }
 
 .nav__link {
   color: #212832;
 }
 
+.action {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.login {
+  margin-right: 78px;
+  color: #212832;
+}
+
 .sign-up-btn {
-  border: 1px solid #212832;
-  padding: 9px 22px;
-  border-radius: 5px;
+  margin-right: 67px;
 }
 
 .en-page {
   text-transform: uppercase;
+  margin-right: 5px;
+  color: #212832;
 }
 
 .ua-page {
   display: none;
   text-transform: uppercase;
-}
-
-.lang__arrow {
-  cursor: pointer;
-  margin-left: 7px;
-}
-
-.nav__item.en-page {
-  display: flex;
-  align-items: center;
 }
 
 .front-bg {
