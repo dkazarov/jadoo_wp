@@ -1,6 +1,7 @@
 <header class="header">
-  <div class="header__inner">
-    <div class="container">
+  <div class="container">
+    <div class="header__inner">
+      <img class="logo" src="./assets/logo.svg" alt="logo">
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item">
@@ -19,13 +20,16 @@
             <a class="nav__link" href="#">Login</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="#">Sign up</a>
+            <a class="nav__link sign-up-btn" href="#">Sign up</a>
           </li>
           <li class="nav__item en-page">
-            <a class="nav__link" href="#">Sign up</a>
+            <a class="nav__link" href="#">en</a>
+            <img class="lang__arrow" src="./assets/lang-arrow.svg" alt="arrow">
           </li>
           <li class="nav__item ua-page">
-            <a class="nav__link" href="#">Sign up</a>
+            <a class="nav__link" href="#">ua</a>
+          </li>
+          <li class="nav__item">
           </li>
         </ul>
       </nav>
@@ -33,4 +37,11 @@
       @include('../html-components/burger.html')
     </div>
   </div>
+  <span class="front-bg">
+    <svg width="704" height="724" viewBox="0 0 704 724" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M22.3069 222C-18.0931 153.2 5.4736 13.3333 22.3069 -48L701.807 -149L766.307 122.5L727.807 723.5C649.14 724.5 473.707 717 401.307 679C310.807 631.5 351.807 555 276.807 515C201.807 475 244.807 369.5 218.807 329.5C192.807 289.5 72.8069 308 22.3069 222Z"
+        fill="#FFF1DA" />
+    </svg>
+  </span>
 </header>
