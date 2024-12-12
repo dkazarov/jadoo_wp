@@ -404,7 +404,7 @@ body {
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 1130px;
   padding: 0 15px;
   margin: 0 auto;
   flex-grow: 1;
@@ -476,7 +476,7 @@ body {
   padding: 0 20px;
   height: 100px;
   width: 100%;
-  background-color: Lavender;
+  background-color: #fff;
 }
 
 .burger {
@@ -490,7 +490,7 @@ body {
 .footer__inner {
   height: 100px;
   width: 100%;
-  background-color: Lavender;
+  background-color: #fff;
   padding-top: 40px;
 }
 
@@ -607,7 +607,7 @@ body {
 .footer__inner {
   height: 100px;
   width: 100%;
-  background-color: Lavender;
+  background-color: #fff;
   padding-top: 40px;
 }
 
@@ -629,7 +629,7 @@ body {
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 1130px;
   padding: 0 15px;
   margin: 0 auto;
   flex-grow: 1;
@@ -651,7 +651,7 @@ body {
   padding: 0 20px;
   height: 100px;
   width: 100%;
-  background-color: Lavender;
+  background-color: #fff;
 }
 
 .burger {
