@@ -176,11 +176,10 @@ const img = () => {
 };
 
 function fonts() {
-	return (
-		gulp
-			.src(paths.fonts.src)
-			.pipe(gulp.dest(paths.fonts.dest))
-	);
+	return gulp.src(paths.fonts.src).pipe(gulp.dest(paths.fonts.dest));
+}
+function copyJson() {
+	return gulp.src('src/json/**.json').pipe(gulp.dest('dist'));
 }
 
 // Отслеживание изменений в файлах и запуск лайв сервера
@@ -210,6 +209,14 @@ exports.scripts = scripts;
 exports.img = img;
 exports.fonts = fonts;
 exports.watch = watch;
+exports.copyJson = copyJson;
 
 // Таск, который выполняется по команде gulp
-exports.default = gulp.series(clean, fonts, html, gulp.parallel(styles, scripts, img), watch);
+exports.default = gulp.series(
+	clean,
+	fonts,
+	html,
+	copyJson,
+	gulp.parallel(styles, scripts, img),
+	watch,
+);
