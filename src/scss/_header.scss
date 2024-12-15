@@ -32,6 +32,7 @@
 	display: flex;
 	align-items: center;
 	margin-left: 30px;
+	cursor: pointer;
 }
 .login {
 	margin-right: 78px;
@@ -41,14 +42,10 @@
 	margin-right: 67px;
 	text-align: center;
 }
-.en-page {
-	text-transform: uppercase;
-	margin-right: 5px;
-	color: $second-text-color;
-}
-.ua-page {
-	display: none;
-	text-transform: uppercase;
+.change-lang {
+	background-color: transparent;
+	border: none;
+	outline: none;
 }
 .front-bg {
 	position: absolute;
