@@ -594,6 +594,7 @@ body {
     transition: all 0.2s ease-in-out;
     padding-top: 0;
     transform: translateX(100%);
+    overflow: auto;
   }
 
   .nav__list {
@@ -944,6 +945,7 @@ body {
     transition: all 0.2s ease-in-out;
     padding-top: 0;
     transform: translateX(100%);
+    overflow: auto;
   }
 
   .nav__list {

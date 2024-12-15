@@ -1,3 +1,4 @@
-import { burgerOpen } from './js-components/burger';
+import { burgerOpen, burgerClose } from './js-components/burger';
 
 burgerOpen();
+burgerClose();
