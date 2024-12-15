@@ -97,7 +97,6 @@
 	}
 	.logo__inner {
 		margin: 0 auto;
-		text-align: center;
 	}
 	.nav {
 		position: fixed;
@@ -152,7 +151,7 @@
 	}
 }
 
-@media (width <= 370px) {
+@media (width <= 375px) {
 	.header__inner {
 		padding: 16px 0;
 	}

@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "gulp + type script + webpack for wp",
 	"main": "index.js",
-	"homepage": "https://dkazarov.github.io/___________.git",
+	"homepage": "https://dkazarov.github.io/jadoo_wp.git",
 	"scripts": {
 		"deploy": "gh-pages -d dist"
 	},
@@ -45,6 +45,6 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git remote add origin https://github.com/dkazarov/gulp_ts.git"
+		"url": "git remote add origin https://github.com/dkazarov/jadoo_wp.git"
 	}
 }
