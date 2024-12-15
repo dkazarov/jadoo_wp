@@ -109,6 +109,7 @@
 		z-index: 1;
 		transition: all 0.2s ease-in-out;
 		padding-top: 0;
+		transform: translateX(100%);
 	}
 	.nav__list {
 		position: absolute;
@@ -144,6 +145,9 @@
 	}
 	.sign-up-btn {
 		font-size: 25px;
+	}
+	.burger {
+		display: block;
 	}
 }
 
